@@ -1,0 +1,57 @@
+div.display {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+p {
+    text-indent: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+    flex: 300px;
+    margin: 10px auto;
+    
+}
+
+article {
+    padding: 0;
+    margin: auto;
+    border-radius: 1em;
+    box-shadow: 2px 0 2px var(--dark-simple-color);
+}
+
+div.images {
+    flex-wrap: wrap;
+}
+
+article.border {
+    width: 300px;
+    min-height: 250px;
+    background-color: var(--dark-simple-color);
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+article.image {
+    min-height: 150px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+article.image img {
+    all: unset;
+    display: block;
+    margin: auto;
+    max-height: 150px;
+}
+
+div.text {
+    padding-left: 1em;
+    margin-top: 10px;
+}
+
+article.border p {
+    margin: 0.2em;
+}

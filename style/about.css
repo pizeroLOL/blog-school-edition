@@ -1,0 +1,33 @@
+img.head {
+	position: absolute;
+	top: -80px;
+	width: 150px;
+	left: 45%;
+	border-radius: 50%;
+	overflow: hidden;
+	border: 2px solid var(--background-color);
+}
+
+body {
+	background-color: var(--background-color);
+}
+
+main {
+	position: relative;
+	top: 150px;
+	width: 50%;
+	margin: 0 auto 300px auto;
+	background-color: var(--dark-simple-color);
+	color: white;
+	padding: 40px;
+}
+
+main a {
+	color: aquamarine;
+}
+
+@media (max-width: 650px) {
+	main {
+		width: 80%;
+	}
+}

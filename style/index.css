@@ -1,0 +1,47 @@
+img.head {
+	display: block;
+	min-width: 60%;
+	margin: auto;
+}
+
+div.submit {
+	position: relative;
+	top: -55px;
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+
+div.submit a {
+	text-decoration: none;
+	display: inline-block;
+	width: 20%;
+	height: 80px;
+	padding: 5px;
+	margin: 15px;
+	line-height: 70px;
+	box-shadow: 2px 2px 2px lightgray;
+}
+
+div.submit img {
+	position: relative;
+	max-height: 25px;
+	top: 6px;
+}
+
+a {
+	text-decoration: none;
+}
+
+main {
+	/* margin: 0 auto 50px auto; */
+	width: 60%;
+}
+
+article.one-side-block ,
+article.two-side-block {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+

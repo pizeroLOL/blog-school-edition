@@ -1,0 +1,161 @@
+div.comment-head,
+div.comment,
+main {
+	width: 60%;
+}
+
+p {
+	text-indent: 2em;
+	line-height: 1.5em;
+}
+
+li p {
+	text-indent: 0;
+}
+
+figure {
+	display: block;
+	text-align: center;
+	margin: auto;
+}
+
+img{
+	max-width: 100%;
+	max-height: 100px;
+}
+
+blockquote {
+	max-width: 60%;
+}
+
+blockquote {
+	margin-left: 0;
+	padding-left: 1em;
+	border-left: 4px solid var(--dark-simple-color);
+}
+
+blockquote p {
+	text-indent: 0;
+}
+
+div.comment-head,
+div.sourceCode,
+table {
+	padding: 2px;
+	border-radius: 0.8em;
+}
+
+div.sourceCode,
+table {
+	margin: 16px auto;
+	box-shadow: 2px 2px 2px lightgray;
+}
+
+div.comment,
+table {
+	border: 2px solid var(--dark-simple-color);
+}
+
+th,
+td {
+	padding: 6px;
+}
+
+th {
+	border-bottom: 1px solid var(--dark-simple-color);
+}
+
+div.sourceCode {
+	width: 80%;
+	margin: auto;
+	padding-left: 1em;
+	color: var(--text-color);
+	background-color: var(--dark-simple-color);
+}
+
+code {
+	font-family: 'Fira Code', 'Fura Code NFM', 'Courier New', Courier, monospace;
+}
+
+div.comment-head {
+	margin: 30px auto 0 auto;
+	padding: 0.8em;
+	border-radius: 0.8em 0.8em 0 0;
+	font-weight: bold;
+	font-size: larger;
+	color: var(--text-color);
+	background-color: var(--dark-simple-color);
+}
+
+div.comment textarea {
+	padding: 0.8em;
+	display: block;
+	width: 92%;
+	margin: auto;
+	border-radius: 0.8em;
+}
+
+div.comment {
+	margin: auto;
+	padding: 0.85em;
+}
+
+
+
+div.comment-about {
+	line-height: 30px;
+	margin: 5px 0;
+}
+
+div.head-space {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 2px solid var(--text-color);
+	overflow: hidden;
+	position: relative;
+	top: 0.8em;
+
+}
+
+div.comment input {
+	width: 20%;
+	padding: 0.6em;
+	border-radius: 0.5em;
+	margin: 5px;
+	text-align: center;
+}
+
+p.comment-submit {
+	text-align: right;
+}
+
+p.comment-submit button {
+	margin: 0 6px;
+	border-radius: 0.8em;
+	height: 35px;
+	width: 20%;
+	border: 0;
+}
+
+@media (max-width: 650px) {
+	blockquote {
+		max-width: 92%;
+	}
+
+	main {
+		width: 92%;
+	}
+
+	div.comment-head,
+	div.comment {
+		width: 90%;
+	}
+}
+
+@media (max-width: 450px) {
+	div.comment input {
+		min-width: 90%;
+	}
+}

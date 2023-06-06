@@ -1,0 +1,40 @@
+<!-- Creator: CorelDRAW 2021.5 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="128px" height="128px"
+	version="1.1"
+	style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+	viewBox="0 0 128 128"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+    <defs>
+        <style type="text/css">
+            <![CDATA[
+				.str0 {stroke:#332C2B;stroke-width:3;stroke-miterlimit:22.9256}
+				.str2 {stroke:#ffffff;stroke-width:3;stroke-miterlimit:22.9256;stroke-dasharray:3.000000 9.000000}
+				.str1 {stroke:#ffffff;stroke-width:3;stroke-miterlimit:22.9256;stroke-dasharray:6.000000 3.000000}
+				.fil1 {fill:none}
+				.fil2 {fill:#ffffff}
+				.fil0 {fill:#F08519}
+   			]]>
+  		</style>
+ 	</defs>
+	<g id="图层_x0020_1">
+		<metadata id="CorelCorpID_0Corel-Layer"/>
+		<circle class="fil0" cx="64" cy="64" r="42.5"/>
+		<line class="fil1 str0" x1="69.2" y1="69.2" x2="97.96" y2= "97.96" />
+		<line class="fil1 str0" x1="119.99" y1="0" x2="128" y2= "8.02" />
+		<line class="fil1 str1" x1="89.99" y1="0" x2="128" y2= "38.01" />
+		<line class="fil1 str0" x1="63.95" y1="33.95" x2="94.05" y2= "64.05" />
+		<line class="fil1 str0" x1="27.5" y1="27.5" x2="57.53" y2= "57.53" />
+		<line class="fil1 str0" x1="33.95" y1="63.95" x2="64.05" y2= "94.05" />
+		<line class="fil1 str2" x1="1.28" y1="91.27" x2="38.01" y2= "128" />
+		<line class="fil1 str0" x1="0" y1="119.98" x2="8.02" y2= "128" />
+		<circle class="fil2" cx="8" cy="9" r="2"/>
+		<circle class="fil2" cx="20" cy="9" r="2"/>
+		<circle class="fil2" cx="8" cy="19" r="2"/>
+		<circle class="fil2" cx="20" cy="19" r="2"/>
+		<circle class="fil2" cx="108" cy="109" r="2"/>
+		<circle class="fil2" cx="120" cy="109" r="2"/>
+		<circle class="fil2" cx="108" cy="119" r="2"/>
+		<circle class="fil2" cx="120" cy="119" r="2"/>
+	</g>
+</svg>
