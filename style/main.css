@@ -1,0 +1,171 @@
+:root {
+	font-family: 'MiSans', 'NotoSans CJK', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	--important-color: goldenrod;
+	--less-important-color: gold;
+	--more-important-color: peru;
+	--background-color: aliceblue;
+	--dark-simple-color: #2A384A;
+	--text-color: white;
+}
+
+div.head {
+	margin-top: 30px;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	background-color: var(--background-color);
+}
+
+header {
+	position: sticky;
+	width: 100%;
+	top: 0;
+	background-color: var(--dark-simple-color);
+	text-align: center;
+	z-index: 9999999;
+}
+
+header .width-c {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+header img {
+	width: 2em;
+	height: 2em;
+}
+
+header span {
+	position: relative;
+	top: -0.62em;
+}
+
+.click-a,
+header a {
+	all: unset;
+	font-size: 18px;
+	display: inline-block;
+	padding: 2px;
+	margin: 5px;
+	flex: 80px;
+	line-height: 2em;
+	height: 2em;
+}
+
+.click-a:hover,
+header a:hover {
+	border-radius: 0.5em;
+}
+
+#home {
+	flex: none;
+}
+
+.button {
+	background-color: var(--dark-simple-color);
+	color: white;
+}
+
+.phone-show {
+	display: none;
+}
+
+main {
+	border-radius: 1em;
+	margin: auto;
+	width: max(60%, 300px);
+}
+
+footer {
+	text-align: center;
+	color: gray;
+}
+
+.button:hover {
+	background-color: var(--important-color);
+	box-shadow: 0 0 0;
+}
+
+/* 显示块开始 */
+
+article.one-side-block,
+article.two-side-block {
+	background-color: var(--dark-simple-color);
+	min-height: 130px;
+	margin: 18px 0;
+	overflow: hidden;
+	color: var(--text-color);
+	box-shadow: 2px 2px 2px lightgray;
+}
+
+article h2 {
+	margin: 0.5em 0;
+}
+
+article.one-side-block {
+	padding: 16px;
+}
+
+article.two-side-block {
+	padding-left: 16px;
+}
+
+article div {
+	display: block;
+}
+
+div.right {
+	width: 50%;
+}
+
+article div.left {
+	float: left;
+}
+
+article div.right {
+	float: right;
+	background-image: url(/images/hello_world.png);
+	height: 200px;
+}
+
+article.two-side-block div.text {
+	width: 48%;
+	padding: 16px 0;
+}
+
+/* 显示块结束 */
+
+@media screen and (max-width: 870px) {
+	.phone-hide {
+		display: none;
+	}
+
+	.phone-show {
+		display: inline-block;
+	}
+
+	.width-c a {
+		width: 80px;
+		flex: none;
+	}
+
+	.width-c #home {
+		flex: 1;
+		text-align: left;
+	}
+}
+
+@media (min-width: 1300px) {
+	.width-c {
+		width: 75%;
+		margin: auto;
+	}
+}
+
+/* addons */
+
+.br1em {
+	border-radius: 1em;
+}

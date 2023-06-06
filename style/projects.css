@@ -1,0 +1,29 @@
+a.border {
+    all: unset;
+    display: block;
+    border: 2px solid var(--dark-simple-color);
+    border-radius: 1em;
+    margin: 1em;
+    overflow: hidden;
+}
+
+h3 {
+    width: 100%;
+    background-color: var(--dark-simple-color);
+    margin: 0;
+    padding: 10px;
+    color: var(--text-color);
+}
+
+a.border:hover {
+    border: 2px solid var(--dark-simple-color);
+}
+
+a.border:hover h3 {
+    background-color: var(--more-important-color);
+}
+
+div.info-box {
+    padding: 10px;
+    padding-top: 0;
+}

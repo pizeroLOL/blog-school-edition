@@ -1,0 +1,21 @@
+main {
+    text-align: center;
+}
+
+div.display {
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.click-a {
+    border-radius: 0.5em
+}
+
+a.click-a {
+    border-radius: 0.5em;
+    width: 45%;
+    flex: 150px;
+    height: 3em;
+    line-height: 3em;
+}
