@@ -126,7 +126,7 @@ article div.left {
 
 article div.right {
 	float: right;
-	background-image: url(/images/hello_world.png);
+	background-image: url(images/hello_world.png);
 	height: 200px;
 }
 

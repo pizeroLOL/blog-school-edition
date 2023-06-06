@@ -1,6 +1,6 @@
 # 摸鱼博客
 
-![Pizero-Blog](/icon.svg)
+![Pizero-Blog](icon.svg)
 
 一个技术实验性质的博客，暂时还没有后端，只是做着玩玩。
 
