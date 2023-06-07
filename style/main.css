@@ -126,8 +126,11 @@ article div.left {
 
 article div.right {
 	float: right;
-	background-image: url(images/hello_world.png);
 	height: 200px;
+	overflow: hidden;
+}
+article div.right img {
+	min-height: 100%;
 }
 
 article.two-side-block div.text {

@@ -34,7 +34,7 @@
 			"            <a href=\"docs/index.html\" class=\"button phone-hide\" id=\"docs\">文档</a>",
 			"            <a href=\"about.html\" class=\"button phone-hide\" id=\"about\">关于</a>",
 			"            <a href=\"/rss\" class=\"button phone-hide\" id=\"rss\">rss订阅</a>",
-			"            <a href=\"search.htmll\" class=\"button\" id=\"search\">搜索</a>",
+			"            <a href=\"search.html\" class=\"button\" id=\"search\">搜索</a>",
 			"            <a href=\"more.html\" class=\"button phone-show\">更多</a>",
 			"        </div>",
 			"    </header>",
