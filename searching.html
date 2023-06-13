@@ -8,40 +8,48 @@
     <meta author="pizero">
     <meta name="description" content="一个博客网站">
     <title>搜素</title>
-    <link rel="stylesheet" href="style/main.css">
-    <link rel="stylesheet" href="style/blogs.css">
-    <link rel="stylesheet" href="style/history.css">
-    <link rel="stylesheet" href="style/search.css">
-    
-    <link rel="shortcut icon" href="favicon.svg">
+    <link rel="stylesheet" href="/style/main.css">
+    <link rel="stylesheet" href="/style/blogs.css">
+    <link rel="stylesheet" href="/style/history.css">
+    <link rel="stylesheet" href="/style/search.css">
+    <link rel="shortcut icon" href="/favicon.svg">
+    <style>
+        #search {
+            border-top: 4px solid var(--important-color);
+        }
+
+        #search:hover {
+            border-top: 4px solid var(--important-color);
+        }
+    </style>
 </head>
 
 <body>
-
-	<header>
-		<div class="width-c">
-			<a href="index.html" class="" id="home">
-				<div>
-					<img src="icon.svg" alt="logo">
-					<span>
-						摸鱼博客
-					</span>
-				</div>
-			</a>
-			<a href="history/index.html" class="phone-hide" id="history">往期内容</a>
-			<a href="images.html" class="phone-hide" id="images">每月好图</a>
-			<a href="projects/index.html" class="phone-hide" id="pojects">项目</a>
-			<a href="docs/index.html" class="phone-hide" id="docs">文档</a>
-			<a href="about.html" class="phone-hide" id="about">关于</a>
-			<a href="/rss" class="phone-hide" id="rss">rss订阅</a>
-			<a href="search.html" class="" id="search">搜索</a>
-			<a href="more.html" class="phone-show">更多</a>
-		</div>
-	</header>
+    <header>
+        <div class="width-c">
+            <a href="/" id="home">
+                <div>
+                    <img src="/icon.svg" alt="logo">
+                    <span>
+                        摸鱼博客
+                    </span>
+                </div>
+            </a>
+            <a href="/history/index.html" class="phone-hide" id="history">往期内容</a>
+            <a href="/images.html" class="phone-hide" id="images">每月好图</a>
+            <a href="/projects/index.html" class="phone-hide" id="pojects">项目</a>
+            <a href="/docs/index.html" class="phone-hide" id="docs">文档</a>
+            <a href="/about.html" class="phone-hide" id="about">关于</a>
+            <a href="/rss" class="phone-hide" id="rss">rss订阅</a>
+            <a href="/search.html" id="search">搜索</a>
+            <a href="/more.html" class="phone-show">更多</a>
+        </div>
+    </header>
+    </header>
     <div class="in-search-box">
-        <form action="searching.html" method="get" class="in-search">
-            <input type="search" name="search" id="search" placeholder="搜索 tag、标题、正文内容 | 搜素功能暂时不可用">
-            <button type="submit">搜索</button>
+        <form action="/searching.html" method="get" class="in-search">
+            <input type="search" name="search" id="search-bar" placeholder="搜索 tag、标题、正文内容 | 搜索功能暂时不可用">
+            <button type="submit" class="button">搜索</button>
         </form>
     </div>
     <main class="in-search">
@@ -53,7 +61,7 @@
                         一些功能上的测试，主要测试了blog文章的正常显示，并做了各个控件的展示
                     </p>
                     <p class="about">日期：2023/6/2 17:34</p>
-                    </div>
+                </div>
             </article>
         </a>
     </main>
