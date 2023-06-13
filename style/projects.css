@@ -1,26 +1,27 @@
 a.border {
     all: unset;
     display: block;
-    border: 2px solid var(--dark-simple-color);
+    background-color: var(--next-color);
     border-radius: 1em;
     margin: 1em;
     overflow: hidden;
+    box-shadow: 0 0 4px var(--next-color);
 }
 
 h3 {
     width: 100%;
-    background-color: var(--dark-simple-color);
     margin: 0;
     padding: 10px;
-    color: var(--text-color);
+    background-color: var(--more-next-color);
+    color: var();
 }
 
-a.border:hover {
-    border: 2px solid var(--dark-simple-color);
+a:hover {
+    box-shadow: 0;
 }
 
 a.border:hover h3 {
-    background-color: var(--more-important-color);
+    background-color: var(--dark-blue-green);
 }
 
 div.info-box {

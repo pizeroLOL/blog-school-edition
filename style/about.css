@@ -17,13 +17,13 @@ main {
 	top: 150px;
 	width: 50%;
 	margin: 0 auto 300px auto;
-	background-color: var(--dark-simple-color);
-	color: white;
+	background-color: var(--next-color);
+	color: var(--text-color);
 	padding: 40px;
 }
 
 main a {
-	color: aquamarine;
+	color: var(--dark-blue-green);
 }
 
 @media (max-width: 650px) {

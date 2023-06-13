@@ -6,3 +6,6 @@ p {
     text-indent: 0;
 }
 
+article.two-side-block div.right img {
+    max-width: unset;
+}

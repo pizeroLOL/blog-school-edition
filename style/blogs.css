@@ -4,6 +4,10 @@ main {
 	width: 60%;
 }
 
+a{
+	color: var(--dark-blue-green);
+}
+
 p {
 	text-indent: 2em;
 	line-height: 1.5em;
@@ -31,7 +35,7 @@ blockquote {
 blockquote {
 	margin-left: 0;
 	padding-left: 1em;
-	border-left: 4px solid var(--dark-simple-color);
+	border-left: 4px solid var(--top-color);
 }
 
 blockquote p {
@@ -53,7 +57,7 @@ table {
 
 div.comment,
 table {
-	border: 2px solid var(--dark-simple-color);
+	border: 2px solid var(--top-color);
 }
 
 th,
@@ -62,15 +66,15 @@ td {
 }
 
 th {
-	border-bottom: 1px solid var(--dark-simple-color);
+	border-bottom: 1px solid var(--top-color);
 }
 
 div.sourceCode {
 	width: 80%;
 	margin: auto;
 	padding-left: 1em;
-	color: var(--text-color);
-	background-color: var(--dark-simple-color);
+	color: var(--dark-bg-text-color);
+	background-color: var(--top-color);
 }
 
 code {
@@ -83,8 +87,8 @@ div.comment-head {
 	border-radius: 0.8em 0.8em 0 0;
 	font-weight: bold;
 	font-size: larger;
-	color: var(--text-color);
-	background-color: var(--dark-simple-color);
+	color: var(--dark-bg-text-color);
+	background-color: var(--top-color);
 }
 
 div.comment textarea {
@@ -112,7 +116,7 @@ div.head-space {
 	width: 40px;
 	height: 40px;
 	border-radius: 50%;
-	border: 2px solid var(--text-color);
+	border: 2px solid var(--dark-bg-text-color);
 	overflow: hidden;
 	position: relative;
 	top: 0.8em;

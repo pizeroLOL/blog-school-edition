@@ -64,7 +64,7 @@ __*斜体加粗*__ __*斜体加粗*__
 
 [引用链接][引用]
 
-![图片-hellow world](/images/hello_world.png)
+![图片-hellow world](images/hello_world.png)
 
 > Tips
 > 
