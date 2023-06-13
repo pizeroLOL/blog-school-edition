@@ -13,9 +13,17 @@ div.display {
 }
 
 a.click-a {
+    background-color: var(--next-color);
+    color: var(--text-color);
+    border-top: none;
     border-radius: 0.5em;
     width: 45%;
     flex: 150px;
     height: 3em;
     line-height: 3em;
+}
+
+a.click-a:hover{
+    border-top: none;
+    background-color: var(--blue-green);
 }

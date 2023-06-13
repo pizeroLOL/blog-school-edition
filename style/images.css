@@ -9,7 +9,7 @@ p {
 
 a {
     text-decoration: none;
-    color: var(--text-color);
+    color: var(---text-color);
     flex: 300px;
     margin: 10px auto;
     
@@ -19,7 +19,7 @@ article {
     padding: 0;
     margin: auto;
     border-radius: 1em;
-    box-shadow: 2px 0 2px var(--dark-simple-color);
+    box-shadow: 0 0 4px var(--next-color);
 }
 
 div.images {
@@ -29,7 +29,7 @@ div.images {
 article.border {
     width: 300px;
     min-height: 250px;
-    background-color: var(--dark-simple-color);
+    background-color: var(--next-color);
     overflow: hidden;
     padding-bottom: 10px;
 }

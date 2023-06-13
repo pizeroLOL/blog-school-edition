@@ -3,10 +3,16 @@
 	--important-color: goldenrod;
 	--less-important-color: gold;
 	--more-important-color: peru;
-	--background-color: aliceblue;
-	--dark-simple-color: #2A384A;
-	--text-color: white;
+	--background-color: rgb(250, 247, 241);
+	--top-color: #1a1917;
+	--next-color: rgb(236, 224, 198);
+	--more-next-color: rgb(201, 182, 143);
+	--dark-bg-text-color: white;
+	--text-color:black;
+	--blue-green:rgb(181, 236, 236);
+	--dark-blue-green:rgb(78, 134, 134);
 }
+
 
 div.head {
 	margin-top: 30px;
@@ -22,9 +28,10 @@ header {
 	position: sticky;
 	width: 100%;
 	top: 0;
-	background-color: var(--dark-simple-color);
+	background-color: var(--top-color);
 	text-align: center;
 	z-index: 9999999;
+	color: var(--dark-bg-text-color);
 }
 
 header .width-c {
@@ -52,11 +59,12 @@ header a {
 	flex: 80px;
 	line-height: 2em;
 	height: 2em;
+	border-top: 2px solid black;
 }
 
 .click-a:hover,
 header a:hover {
-	border-radius: 0.5em;
+	border-top: 2px solid var(--blue-green);
 }
 
 #home {
@@ -64,8 +72,8 @@ header a:hover {
 }
 
 .button {
-	background-color: var(--dark-simple-color);
-	color: white;
+	background-color: var(--top-color);
+	color: var(--dark-bg-text-color);
 }
 
 .phone-show {
@@ -84,7 +92,7 @@ footer {
 }
 
 .button:hover {
-	background-color: var(--important-color);
+	background-color: var(--dark-blue-green);
 	box-shadow: 0 0 0;
 }
 
@@ -92,12 +100,12 @@ footer {
 
 article.one-side-block,
 article.two-side-block {
-	background-color: var(--dark-simple-color);
+	background-color: var(--next-color);
 	min-height: 130px;
 	margin: 18px 0;
 	overflow: hidden;
 	color: var(--text-color);
-	box-shadow: 2px 2px 2px lightgray;
+	box-shadow: 0px 0px 4px lightgray;
 }
 
 article h2 {
@@ -137,6 +145,11 @@ article.two-side-block div.text {
 	width: 48%;
 	padding: 16px 0;
 }
+
+article:hover{
+	box-shadow: none;
+}
+
 
 /* 显示块结束 */
 

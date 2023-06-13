@@ -33,21 +33,25 @@ form input {
     padding: 1em;
     border-radius: 2em;
     border: none;
-    background-color: var(--dark-simple-color);
-    color: var(--text-color);
+    background-color: var(--next-color);
     margin: 10px;
-    box-shadow: 0 0 2px var(--dark-simple-color);
+    box-shadow: 0 0 4px var(--next-color);
 }
 
 form button {
+    background-color: var(--top-color);
+    color: var(--dark-bg-text-color);
     border-radius: 2em;
     padding: 1em;
     min-width: 12%;
     border: none;
     margin: 10px;
-    box-shadow: 0 0 2px var(--dark-simple-color);
+    box-shadow: 0 0 4px var(--next-color);
 }
 
+form button:hover {
+    background-color: var(--dark-blue-green);
+}
 
 @media (max-width: 700px) {
     main.start-search {
