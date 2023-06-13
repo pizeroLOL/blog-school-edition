@@ -53,6 +53,10 @@ form button:hover {
     background-color: var(--dark-blue-green);
 }
 
+form {
+    text-align: center;
+}
+
 @media (max-width: 700px) {
     main.start-search {
 		width: 92%;
