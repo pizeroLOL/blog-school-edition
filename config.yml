@@ -1,0 +1,12 @@
+name: pizero-blog
+author: pizero
+articles:
+  - name: images
+    index: articles/images.html
+    - type: path
+    - type: img
+      use: path
+      alt: file_name
+    - type: text
+    - type: date
+  
