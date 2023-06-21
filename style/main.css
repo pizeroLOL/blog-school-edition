@@ -58,11 +58,9 @@ header a {
 	flex: 80px;
 	line-height: 2em;
 	height: 2em;
+	border-top: 2px solid var(--top-color);
 }
 
-header a {
-	border: 2px solid var(--top-color);
-}
 
 header a:hover {
 	border-top: 2px solid var(--blue-green);
