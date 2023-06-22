@@ -16,7 +16,7 @@ copyfile:
   - more.html
   - search.html
   - searching.html
-  - historys.html
+  - history
 doc_blueprint: blog.html
-history_blueprint: historys.html
+history_blueprint: history/index.html
 # build_command: pandoc '{file_path}' -o '{output_path}' --toc --template={doc_blueprint}
