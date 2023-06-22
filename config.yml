@@ -1,12 +1,20 @@
-name: pizero-blog
+name: blog-school
+type: blueprint
 author: pizero
-articles:
-  - name: images
-    index: articles/images.html
-    - type: path
-    - type: img
-      use: path
-      alt: file_name
-    - type: text
-    - type: date
-  
+depandent: pandoc
+copyfile:
+  # - docs
+  - icons
+  # - images
+  # - images-share
+  - projects
+  - style
+  - about.html
+  - favicon.ico
+  - favicon.svg
+  - icon.svg
+  - more.html
+  - search.html
+  - searching.html
+doc_blueprint: blog.html
+# build_command: pandoc '{file_path}' -o '{output_path}' --toc --template={doc_blueprint}
