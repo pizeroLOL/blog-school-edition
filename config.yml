@@ -16,7 +16,11 @@ copyfile:
   - search.html
   - searching.html
   - history
+  - index.html
 doc_blueprint: blog.html
 history_blueprint: history/index.html
 images_blueprint: images.html
 images_block_blueprint: articles/images.html
+index_blueprint: index.html
+index_one_side_block_blueprint: articles/one-side-block.html
+index_two_side_block_blueprint: articles/two-side-block.html
