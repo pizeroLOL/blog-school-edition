@@ -19,5 +19,4 @@ copyfile:
 doc_blueprint: blog.html
 history_blueprint: history/index.html
 images_blueprint: images.html
-images_share_path: images-share
 images_block_blueprint: articles/images.html
