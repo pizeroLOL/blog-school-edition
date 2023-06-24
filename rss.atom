@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" />
+<title>pizero-blog</title>
+<link href="https://blog-docs.pages.dev/rss.atom"
+    rel="self" type="application/atom+xml" />
+<link href="https://blog-docs.pages.dev" rel="alternate" type="text/html" />
+<id>https://blog-docs.pages.dev</id>
+<updated>
+    <!-- 2023-06-24T00:00:42+08:00 -->
+    <!-- [UPDATE TIME] -->
+</updated>
+<entry>
+    <id>
+        <!-- tag:jihulab.com,2023-06-24:3446548 -->
+        <!-- [ID] -->
+    </id>
+    <link href="<!-- [PATH] -->" />
+    <title>
+        <!-- [TITLE] -->
+    </title>
+    <updated>
+        <!-- [TIME] -->
+    </updated>
+    <media:thumbnail width="40" height="40" url="https://blog-docs.pages.dev/fanvicon.ico" />
+    <author>
+        <name>Pizero</name>
+    </author>
+    <summary type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <!-- [INFO] -->
+        </div>
+    </summary>
+</entry>
