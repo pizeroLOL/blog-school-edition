@@ -35,19 +35,23 @@
 img.head {
 	display: block;
 	min-width: 60%;
+	max-width: 100%;
 	margin: auto;
 	border-radius: 1em;
 }
 
 div.submit {
+	display: flex;
+	flex-wrap: wrap;
 	position: relative;
 	top: -55px;
-	width: 80%;
+	width: 55%;
 	margin: auto;
 	text-align: center;
 }
 
 div.submit a {
+	flex: 110px;
 	text-decoration: none;
 	display: inline-block;
 	width: 20%;
@@ -77,4 +81,10 @@ article.one-side-block,
 article.two-side-block {
 	margin-left: auto;
 	margin-right: auto;
+}
+
+@media (max-width: 650px) {
+	main {
+		width: 92%;
+	}
 }
